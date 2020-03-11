@@ -152,6 +152,10 @@ h5 {
   margin-bottom: 15px;
 }
 
+p {
+  font-family: 'Bellota', cursive;
+}
+
 /* Your code starts here! */
 
 .wrapper {
@@ -161,10 +165,12 @@ h5 {
 nav {
   display: inline-block;
   width: 85%;
+  vertical-align: top;
 }
 header div {
   display: inline-block;
   width: 14%;
+  margin-top: 3.5%;
 }
 header a {
   display: inline-block;
@@ -175,7 +181,7 @@ header a {
 .con1 {
   display: inline-block;
   font-size: 76px;
-  margin-left: 19%;
+  margin-left: 11.5%;
   text-align: center;
 }
 button {
@@ -221,4 +227,20 @@ hr {
   display: inline-block;
   width: 32%;
   margin-bottom: 5%;
+  margin-top: 3%;
+}
+footer {
+  margin-top: 5%;
+}
+.address {
+  margin-bottom: 1%;
+}
+.number {
+  margin-bottom: 1%;
+}
+.email {
+  margin-bottom: 1%;
+}
+.copyright {
+  text-align: center;
 }
